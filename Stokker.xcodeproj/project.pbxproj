@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F3791C125F7833000318B79 /* SentimentClassifierManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3791C025F7833000318B79 /* SentimentClassifierManager.swift */; };
 		8F6AC03525F128B9001A1EA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6AC03425F128B9001A1EA1 /* AppDelegate.swift */; };
 		8F6AC03725F128B9001A1EA1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6AC03625F128B9001A1EA1 /* SceneDelegate.swift */; };
 		8F6AC03925F128B9001A1EA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6AC03825F128B9001A1EA1 /* ViewController.swift */; };
@@ -20,6 +21,9 @@
 		8FA92DAB25F6743900848BF1 /* SwifteriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8FA92D9A25F673FB00848BF1 /* SwifteriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8FA92DB225F6766200848BF1 /* Secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FA92DB125F6766200848BF1 /* Secrets.plist */; };
 		8FA92DB925F6785D00848BF1 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA92DB825F6785D00848BF1 /* Secrets.swift */; };
+		B69483567D250637DBEF142C /* Pods_StokkerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A6FD65948756DCA3021E77 /* Pods_StokkerTests.framework */; };
+		BDA1A242E628EC43AE9B7920 /* Pods_Stokker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E47E15E318AC24EF310F7635 /* Pods_Stokker.framework */; };
+		F1E45729314C29CCD2DC164C /* Pods_Stokker_StokkerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15BD43A8E6212C3269E3E83 /* Pods_Stokker_StokkerUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +93,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		21C578268F50AD41C0377F92 /* Pods-Stokker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stokker.release.xcconfig"; path = "Target Support Files/Pods-Stokker/Pods-Stokker.release.xcconfig"; sourceTree = "<group>"; };
+		2369E3D4011D0EDE5A9741DE /* Pods-StokkerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StokkerTests.debug.xcconfig"; path = "Target Support Files/Pods-StokkerTests/Pods-StokkerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		31A6FD65948756DCA3021E77 /* Pods_StokkerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StokkerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		566827034A722B1249A38CC1 /* Pods-Stokker-StokkerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stokker-StokkerUITests.debug.xcconfig"; path = "Target Support Files/Pods-Stokker-StokkerUITests/Pods-Stokker-StokkerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F3791C025F7833000318B79 /* SentimentClassifierManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentimentClassifierManager.swift; sourceTree = "<group>"; };
 		8F6AC03125F128B9001A1EA1 /* Stokker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stokker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F6AC03425F128B9001A1EA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F6AC03625F128B9001A1EA1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +116,11 @@
 		8FA92D9125F673FB00848BF1 /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swifter.xcodeproj; path = Swifter/Swifter.xcodeproj; sourceTree = "<group>"; };
 		8FA92DB125F6766200848BF1 /* Secrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Secrets.plist; sourceTree = "<group>"; };
 		8FA92DB825F6785D00848BF1 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		B9586CD55F77F877A38A7FB0 /* Pods-StokkerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StokkerTests.release.xcconfig"; path = "Target Support Files/Pods-StokkerTests/Pods-StokkerTests.release.xcconfig"; sourceTree = "<group>"; };
+		E15BD43A8E6212C3269E3E83 /* Pods_Stokker_StokkerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stokker_StokkerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E47E15E318AC24EF310F7635 /* Pods_Stokker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stokker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9DCFE17300FF7DD69FBE5CD /* Pods-Stokker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stokker.debug.xcconfig"; path = "Target Support Files/Pods-Stokker/Pods-Stokker.debug.xcconfig"; sourceTree = "<group>"; };
+		FB8CFA11FDFFADD9D22055B6 /* Pods-Stokker-StokkerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stokker-StokkerUITests.release.xcconfig"; path = "Target Support Files/Pods-Stokker-StokkerUITests/Pods-Stokker-StokkerUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FA92DAA25F6743900848BF1 /* SwifteriOS.framework in Frameworks */,
+				BDA1A242E628EC43AE9B7920 /* Pods_Stokker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,6 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B69483567D250637DBEF142C /* Pods_StokkerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,12 +145,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1E45729314C29CCD2DC164C /* Pods_Stokker_StokkerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6248B382F617714CE0EB7BCD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9DCFE17300FF7DD69FBE5CD /* Pods-Stokker.debug.xcconfig */,
+				21C578268F50AD41C0377F92 /* Pods-Stokker.release.xcconfig */,
+				566827034A722B1249A38CC1 /* Pods-Stokker-StokkerUITests.debug.xcconfig */,
+				FB8CFA11FDFFADD9D22055B6 /* Pods-Stokker-StokkerUITests.release.xcconfig */,
+				2369E3D4011D0EDE5A9741DE /* Pods-StokkerTests.debug.xcconfig */,
+				B9586CD55F77F877A38A7FB0 /* Pods-StokkerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8F3791B925F782EB00318B79 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8F6AC03825F128B9001A1EA1 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8F3791BC25F782F900318B79 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8F6AC03A25F128B9001A1EA1 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8F3791BF25F7830900318B79 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8F3791C025F7833000318B79 /* SentimentClassifierManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		8F6AC02825F128B9001A1EA1 = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +198,7 @@
 				8F6AC05525F128BB001A1EA1 /* StokkerUITests */,
 				8F6AC03225F128B9001A1EA1 /* Products */,
 				8FA92DA925F6743900848BF1 /* Frameworks */,
+				6248B382F617714CE0EB7BCD /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -160,11 +215,12 @@
 		8F6AC03325F128B9001A1EA1 /* Stokker */ = {
 			isa = PBXGroup;
 			children = (
+				8F3791BF25F7830900318B79 /* Model */,
+				8F3791BC25F782F900318B79 /* Views */,
+				8F3791B925F782EB00318B79 /* Controllers */,
 				8FA92D8925F66F9600848BF1 /* TweetSentimentClassifier.mlmodel */,
 				8F6AC03425F128B9001A1EA1 /* AppDelegate.swift */,
 				8F6AC03625F128B9001A1EA1 /* SceneDelegate.swift */,
-				8F6AC03825F128B9001A1EA1 /* ViewController.swift */,
-				8F6AC03A25F128B9001A1EA1 /* Main.storyboard */,
 				8FA92DB825F6785D00848BF1 /* Secrets.swift */,
 				8F6AC03D25F128BB001A1EA1 /* Assets.xcassets */,
 				8F6AC03F25F128BB001A1EA1 /* LaunchScreen.storyboard */,
@@ -207,6 +263,9 @@
 		8FA92DA925F6743900848BF1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E47E15E318AC24EF310F7635 /* Pods_Stokker.framework */,
+				E15BD43A8E6212C3269E3E83 /* Pods_Stokker_StokkerUITests.framework */,
+				31A6FD65948756DCA3021E77 /* Pods_StokkerTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -218,10 +277,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F6AC05B25F128BB001A1EA1 /* Build configuration list for PBXNativeTarget "Stokker" */;
 			buildPhases = (
+				02C42EFD6F78BAC50391036A /* [CP] Check Pods Manifest.lock */,
 				8F6AC02D25F128B9001A1EA1 /* Sources */,
 				8F6AC02E25F128B9001A1EA1 /* Frameworks */,
 				8F6AC02F25F128B9001A1EA1 /* Resources */,
 				8FA92DAC25F6743900848BF1 /* Embed Frameworks */,
+				E154E9464967E922637F5AF4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -236,6 +297,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F6AC05E25F128BB001A1EA1 /* Build configuration list for PBXNativeTarget "StokkerTests" */;
 			buildPhases = (
+				D1CD7D4CDA5828AA2C855BD6 /* [CP] Check Pods Manifest.lock */,
 				8F6AC04325F128BB001A1EA1 /* Sources */,
 				8F6AC04425F128BB001A1EA1 /* Frameworks */,
 				8F6AC04525F128BB001A1EA1 /* Resources */,
@@ -254,9 +316,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F6AC06125F128BB001A1EA1 /* Build configuration list for PBXNativeTarget "StokkerUITests" */;
 			buildPhases = (
+				E02AF6A86CE68C6977BDE640 /* [CP] Check Pods Manifest.lock */,
 				8F6AC04E25F128BB001A1EA1 /* Sources */,
 				8F6AC04F25F128BB001A1EA1 /* Frameworks */,
 				8F6AC05025F128BB001A1EA1 /* Resources */,
+				5ADB1160DF3BC46261433E79 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -382,11 +446,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02C42EFD6F78BAC50391036A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Stokker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5ADB1160DF3BC46261433E79 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stokker-StokkerUITests/Pods-Stokker-StokkerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stokker-StokkerUITests/Pods-Stokker-StokkerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Stokker-StokkerUITests/Pods-Stokker-StokkerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1CD7D4CDA5828AA2C855BD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StokkerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E02AF6A86CE68C6977BDE640 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Stokker-StokkerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E154E9464967E922637F5AF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stokker/Pods-Stokker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stokker/Pods-Stokker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Stokker/Pods-Stokker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8F6AC02D25F128B9001A1EA1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F3791C125F7833000318B79 /* SentimentClassifierManager.swift in Sources */,
 				8F6AC03925F128B9001A1EA1 /* ViewController.swift in Sources */,
 				8FA92DB925F6785D00848BF1 /* Secrets.swift in Sources */,
 				8F6AC03525F128B9001A1EA1 /* AppDelegate.swift in Sources */,
@@ -564,6 +732,7 @@
 		};
 		8F6AC05C25F128BB001A1EA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9DCFE17300FF7DD69FBE5CD /* Pods-Stokker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -583,6 +752,7 @@
 		};
 		8F6AC05D25F128BB001A1EA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21C578268F50AD41C0377F92 /* Pods-Stokker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -602,6 +772,7 @@
 		};
 		8F6AC05F25F128BB001A1EA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2369E3D4011D0EDE5A9741DE /* Pods-StokkerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -624,6 +795,7 @@
 		};
 		8F6AC06025F128BB001A1EA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9586CD55F77F877A38A7FB0 /* Pods-StokkerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -646,6 +818,7 @@
 		};
 		8F6AC06225F128BB001A1EA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 566827034A722B1249A38CC1 /* Pods-Stokker-StokkerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -666,6 +839,7 @@
 		};
 		8F6AC06325F128BB001A1EA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB8CFA11FDFFADD9D22055B6 /* Pods-Stokker-StokkerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
